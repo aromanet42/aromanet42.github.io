@@ -15,8 +15,7 @@
       transition: fill 0.2s, stroke 0.3s;
     }
     #map path:hover {
-      fill: red;
-      stroke: red;
+      fill-opacity: 0.5;
     }
     #map .separator {
       stroke: #ccc;
@@ -27,9 +26,34 @@
       stroke: #ccc;
       fill: none;
     }
+
+    /* color departements */
+    #map path[data-num="42"], #map path[data-num="03"], #map path[data-num="63"], #map path[data-num="69"], #map path[data-num="74"], #map path[data-num="73"], #map path[data-num="38"], #map path[data-num="43"], #map path[data-num="48"], #map path[data-num="07"], #map path[data-num="26"], #map path[data-num="05"], #map path[data-num="04"], #map path[data-num="06"], #map path[data-num="83"], #map path[data-num="13"], #map path[data-num="34"], #map path[data-num="30"] , #map path[data-num="84"] {
+      fill: green;
+    }
+
+    #map path[data-num="64"], #map path[data-num="11"], #map path[data-num="09"], #map path[data-num="81"], #map path[data-num="65"], #map path[data-num="12"], #map path[data-num="15"], #map path[data-num="19"], #map path[data-num="23"], #map path[data-num="87"], #map path[data-num="15"], #map path[data-num="17"], #map path[data-num="33"], #map path[data-num="40"], #map path[data-num="66"], #map path[data-num="47"], #map path[data-num="31"], #map path[data-num="82"], #map path[data-num="46"], #map path[data-num="32"], #map path[data-num="24"], #map path[data-num="16"] {
+      fill: blue;
+    }
+
+    #map path[data-num="85"], #map path[data-num="79"], #map path[data-num="86"], #map path[data-num="36"], #map path[data-num="18"], #map path[data-num="41"], #map path[data-num="37"], #map path[data-num="49"], #map path[data-num="44"], #map path[data-num="56"], #map path[data-num="29"], #map path[data-num="22"], #map path[data-num="35"], #map path[data-num="53"], #map path[data-num="72"], #map path[data-num="61"], #map path[data-num="14"], #map path[data-num="50"] {
+      fill: red;
+    }
+
+    #map path[data-num="58"], #map path[data-num="89"], #map path[data-num="10"], #map path[data-num="52"], #map path[data-num="21"], #map path[data-num="39"], #map path[data-num="25"], #map path[data-num="70"], #map path[data-num="88"], #map path[data-num="55"], #map path[data-num="54"], #map path[data-num="57"], #map path[data-num="67"], #map path[data-num="68"], #map path[data-num="90"] {
+      fill: purple;
+    }
+
+    #map path[data-num="45"], #map path[data-num="91"], #map path[data-num="77"], #map path[data-num="76"], #map path[data-num="27"], #map path[data-num="78"], #map path[data-num="60"], #map path[data-num="95"], #map path[data-num="80"], #map path[data-num="62"], #map path[data-num="59"], #map path[data-num="08"], #map path[data-num="51"], #map path[data-num="75"], #map path[data-num="28"], #map path[data-num="02"], #map path[data-num="93"], #map path[data-num="92"], #map path[data-num="94"] {
+      fill: grey;
+    }
+
   </style>
 </head>
 <body>
+
+<h1>Carte de France</h1>
+<p>&copy; <a href="http://www.synbioz.com/blog/carte_france_svg">Synbioz</a></p>
 
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg id="map" width="492px" height="543px" viewBox="0 0 492 543" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
